@@ -1,6 +1,6 @@
 <?php
 
-namespace Stolentine\ZipPartialReader\Test;
+namespace Stolentine\ZipPartialReader\Tests;
 
 use Stolentine\ZipPartialReader\ZipPartialReader;
 

@@ -1,0 +1,44 @@
+{
+    "name": "stolentine/zip-partial-reader",
+    "description": "Client for read one file from zip archive by curl",
+    "keywords": [
+        "zip",
+        "partial",
+        "chunk",
+        "curl",
+        "one file"
+    ],
+    "homepage": "https://github.com/stolentine/zip-partial-reader",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stolentine",
+            "email": "stoletine@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "ext-curl": "*",
+        "ext-zlib": "*"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Stolentine\\ZipPartialReader\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Stolentine\\ZipPartialReader\\Test\\": "tests/"
+        }
+    },
+    "extra": {
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+    }
+}

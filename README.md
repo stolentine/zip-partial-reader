@@ -1,5 +1,6 @@
 # ZipPartialReader
 
+
 Client for read one file from zip archive by curl.
 
 ```php
